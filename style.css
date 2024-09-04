@@ -1,0 +1,152 @@
+.menu h1 {
+  background-color: rgb(21, 4 , 98);
+  padding: 10px;
+  color: #ddd;
+  margin-top: 1px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0px;
+  margin-top: -61px;
+  margin-left: 900px;
+  color: white;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: inline;
+  font-size: 25px;
+}
+
+.menu img {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  margin-top: -5px;
+}
+
+.menu h2 {
+  text-align: center;
+  margin-top: 450px;
+  padding: 5rem;
+  font-size: 50px;
+  color: rgb(21, 4 , 98);
+  text-shadow: 15px 10px 20px black;
+}
+
+.menu p {
+  font-size: 22px;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.Horarios h2 {
+  font-size: 65px;
+  text-align: center;
+  padding: 5rem;
+  color: rgb(21, 4 , 98);
+  text-shadow: 15px 10px 20px black;
+}
+
+#tabela {
+  border: 1px solid;
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: -50px;
+}
+
+#tabela th, td {
+  border: 1px solid black;
+  padding: 5px 10px;
+  font-size: 30px;
+}
+
+#tabela th {
+  background-color: rgb(21, 4 , 98);
+  color: white;
+}
+
+.contatos h1 {
+  font-size: 65px;
+  text-align: center;
+  padding: 5rem;
+  color: #ddd
+  
+}
+
+.contatos {
+  padding: 0 10rem 1rem 10rem;
+ background-color: rgb(21, 4 , 98);
+}
+
+.inputform {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-left: auto;
+}
+
+form {
+  width: 5rem;
+  align-items: center;
+  margin-top: -375px;
+  margin-left: 175px;
+}
+
+.contatos .inputform .mapa {
+  width: 100%;
+  flex: 1.45rem;
+  object-fit: cover;
+}
+
+.inputform input{
+  width: 100rem;
+  padding: 1rem;
+  background-color: #ddd;
+  color: rgb(21, 4 , 98);
+  border-radius: 25px;
+  border: 0px;
+}
+
+.mapa {
+  margin-left: 350px;
+  margin-top: -50px;
+  width: 50rem;
+  height: 25rem;
+}
+
+#button {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: darkgray;
+  background-color: #ddd;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 0px;
+}
+
+.fonte {
+  font-size: 1px;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.menu li a:hover {
+  color: #ddd;
+}
